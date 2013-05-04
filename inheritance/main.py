@@ -29,3 +29,14 @@ w.printItems()
 w.listItems.append('tree')
 print "After added...."
 w.printItems()
+
+
+class Hero:
+	pass
+
+ironman = Hero()
+
+ironman.name = 'Tony'
+ironman.last_name = 'Stark'
+
+print ironman.name
